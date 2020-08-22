@@ -1,0 +1,28 @@
+// rename the filename to package.json to run
+
+{
+  "name": "javascriptmyscripts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Abstration.js",
+  "scripts": {
+    "e2e-test": "cucumber-js --require cucumber.conf.js --require step-definitions --format node_modules/cucumber-pretty"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "D": "^1.0.0",
+    "cucumber": "^6.0.5",
+    "cucumber-pretty": "^6.0.0",
+    "jest": "^26.1.0",
+    "mocha": "^8.0.1",
+    "nightwatch": "^1.3.7",
+    "nightwatch-api": "^3.0.1",
+    "puppeteer": "^5.2.1"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chromedriver": "^84.0.1",
+    "selenium-server": "^3.141.59"
+  }
+}
